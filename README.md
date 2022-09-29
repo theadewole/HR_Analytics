@@ -4,15 +4,31 @@ _Capstone projecct_
 
 This is my capstone project for the #OUIBOOTCAMP by REPOTECH. The objective is to analyze a manufacturing group (Palmoria) HR database to discover issues bordering on gender inequality in its 3 regions across Nigeria. 
 The documentation will include:
-- Report Requirement          
+- Statement of Problem
+- Objective 
 - Data Cleaning 
 - Data Preprocessing 
 - Data Modelling 
 - Data Analysis and Visualization 
 - Recommendations
 
+# Statement of Problem 
+The Palmoria Group, a manufacturing company based in the Nigeria is embroiled in issues bordering on gender inequality in its 3 regions. Unfortunately, the media recently published in the news with the headline “Palmoria, the Manufacturing Patriarchy” This doesn’t look good for the owners of the business based on their ambition to scale the business to other regions and even overseas. Cases like this can only spiral downwards revealing other issues like gender pay gap amongst other possible issues.
 
-# Report Requirement
+My mission is to analyze the company’s HR Database to identify:
+
+👉🏾 key areas within the business that could spring up issues 
+
+👉🏾 Come up with recommendations for management’s attention 
+
+👉🏾 Give a breakdown of the Salary details.
+
+Upon handed this task the CEO told me.... 
+
+_“Now, the future of gender equality in Palmoria lies in your hands”_
+
+
+# Objective 
 <details><summary>More</summary>
  
 -	What is the gender distribution in the organization? Distil to regions and departments
@@ -43,7 +59,8 @@ This process was carried out on PowerBi desktop, the datasets were imported into
 <details><summary>More</summary>
 The first thing I carried out at this stage was to give a unique ID to each employee to preserve the privacy of each employee, employee whose gender was not disclosed was given a generic gender name “Unspecified”. 
 I also did a merge of the two datasets “emp-data and Bonus rules” so as assign each employee their corresponding rating and calculated the bonus value each employee received based on their rating and their department. 
-##### Using data analysis expression (DAX), I created two new measures to calculate if the company meets the manufacturing regulation minimum requirements
+
+ - Using data analysis expression (DAX), I created two new measures to calculate if the company meets the manufacturing regulation minimum requirements
 
 - _For salary less than 90000_
 ```
@@ -73,6 +90,7 @@ The data model Contains two tables which are Insight and Salary structure
 <details><summary>More</summary>
  
  - **Employee distribution by gender and region** 
+ 
 There are 943 active employees on the company database, which shows that there are 24 male employees than female employees while the total number of the unspecified gender is 39. The region distribution also shows that Kaduna has more employees across the region with Lagos being the lowest. Consequently, total pay by region 
 follows this same trend from Kaduna-Lagos.
 
@@ -80,21 +98,25 @@ follows this same trend from Kaduna-Lagos.
 ![image](https://user-images.githubusercontent.com/108795960/192603012-149bd7aa-8349-4f8e-a650-a5bb420f5c99.png)
 
 - **Gender Distribution by Department** 
+ 
 The result of the analysis indicates that there are more males in 7 of the 12 departments within the organization while the departments where female employees were more dominant are strategic departments within the organization.
 
 ![image](https://user-images.githubusercontent.com/108795960/192603146-194dc7e1-cafa-4aba-8904-3fc6de0f2ef3.png)
 
 - **Gender Insight by Rating** 
+ 
 There was more female in the top-rated categories than the other gender, it was also revealed from the analysis that more employee falls in the average category which is dominated by the male gender as well as the two least rated category. of the total 39 employees of the unspecific gender, 50% are rated average. 
 
 ![image](https://user-images.githubusercontent.com/108795960/192603236-cace9f1d-0920-49ad-94bf-26b4773b85f0.png)
 
 - **Salary structure Gap by Gender**
+ 
 Obvious gender gaps were observed in Accounting, Human Resources, and marketing with Unspecified earning more while the gap in Business Administration and Product Management department are more tended towards the male and female genders for the entire company. 
 
 ![image](https://user-images.githubusercontent.com/108795960/192603321-da9fe839-08cc-4dbc-9610-d5f514d5bc6f.png)
 
 - **Regulatory Minimum Requirement**
+ 
 A regulation that directs all manufacturing companies to pay a minimum of $90000 to its employee, the analysis shows that 69% of the company’s workforce are paid below the stipulated minimum amount 
 
 ![image](https://user-images.githubusercontent.com/108795960/192603392-4b6ce1f9-85f0-48aa-9738-bbf89f9f9e19.png)
