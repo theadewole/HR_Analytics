@@ -130,6 +130,6 @@ A regulation that directs all manufacturing companies to pay a minimum of $90000
 
 • Though the Unspecified gender constitutes a minute of the company’s employees, analysis of salary-shows they earn more in more than 50% of departments which is more pronounced in Kaduna.
 
-[View Dashboard Here]([https://github.com/theadewole/HR_Analytics/blob/main/HR_Analystic%20Dashboard%20Page%201.png](https://app.powerbi.com/view?r=eyJrIjoiODcyMjA1MGMtMGJmNC00NTE1LWI2YzktNzZmMmQ5ZjliNjAwIiwidCI6IjA4MmY1ZjZjLWRmYmEtNGFiZS04M2Q1LTEzZmU1MWIzZTc2OSJ9&pageName=ReportSection2746c5225dfefd5b8c08)) 
+[View Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiODcyMjA1MGMtMGJmNC00NTE1LWI2YzktNzZmMmQ5ZjliNjAwIiwidCI6IjA4MmY1ZjZjLWRmYmEtNGFiZS04M2Q1LTEzZmU1MWIzZTc2OSJ9&pageName=ReportSection2746c5225dfefd5b8c08) 
 
 
